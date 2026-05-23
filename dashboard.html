@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Mini CRM</h1>
+
+  <input type="text"
+         id="name"
+         placeholder="Lead Name">
+
+  <input type="email"
+         id="leadEmail"
+         placeholder="Lead Email">
+
+  <input type="text"
+         id="source"
+         placeholder="Lead Source">
+
+  <textarea id="notes"
+            placeholder="Notes"></textarea>
+
+  <button onclick="addLead()">
+    Add Lead
+  </button>
+
+  <div id="leadList"></div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
