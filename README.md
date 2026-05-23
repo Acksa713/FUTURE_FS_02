@@ -1,1 +1,2 @@
-# FUTURE_FS_02
+The Mini CRM (Customer Relationship Management) System is a full-stack web application developed to help businesses manage and track customer leads efficiently. The application was built using HTML, CSS, and JavaScript for the frontend, while Node.js and Express.js were used for backend development. MongoDB was integrated as the database to store lead details and authentication data securely.
+The system includes secure admin authentication using JWT (JSON Web Token) and password encryption using bcryptjs to ensure only authorized administrators can access sensitive customer data.
